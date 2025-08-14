@@ -5,10 +5,26 @@
     padding: 0;
 }
 
+#navbar, ul{
+    display: flex;
+    justify-content: center;
+   /* background: rgb(255 255 255 / 10%); */
+}
+
 h1{
     font-family: "Caprasimo", serif;
     font-weight: 400;
     font-style: normal;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    display: flex;
+    font-family: "Caprasimo", serif;
+    font-weight: 200;
+    font-style: normal;
+    justify-content: center;
 }
 
 body{
@@ -19,7 +35,104 @@ body{
 }
 
 .slider{
+    background-image: url(/img/istockphoto.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     width: 100%;
-    min-height: 80vh;
-    
+    height: 80vh;
+}
+
+/* ------------------------- Galerie------------------------------------------------------- */
+
+.galerie {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+/*--------------------- Contact -------------------------- */
+.TitreContact{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+.ReseauxContact{
+    text-align: center;
+    font-size: 55px;
+    color: rgb(20, 68, 20);
+}
+
+form {
+    /* max-width:580px; 
+    margin:50px auto; */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #ccc;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.feedback-input {
+    color:white;
+    /*font-family: Helvetica, Arial, sans-serif;*/
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 20px;
+    background-color: rgba(203, 201, 201, 0.821);
+    border:2px solid #CC6666;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+    outline:0;
+}
+
+.feedback-input:focus { 
+    border:2px solid #CC4949; 
+}
+
+textarea {
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+[type="submit"] {
+   /* font-family: 'Montserrat', Arial, Helvetica, sans-serif; */
+    width: 100%;
+    background:#cd282f;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    color:white;
+    font-size:24px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:700;
+}
+[type="submit"]:hover { background:#cd282f; }
+
+.fa-brands, .fab {
+    color: red;
+}
+
+/* ------------------------- footer------------------------------------------------------- */
+
+.traitfooter {
+    width: 90%;
+}
+
+.bas {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 9rem;
+    padding-right: 9rem;
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(128, 124, 124);
 }

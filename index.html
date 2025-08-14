@@ -3,25 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/css/styles.css">
 
     <title>Mon portfolio</title>
 </head>
 <body>
     <header>
-        <nav></nav>
+        <nav id="navbar">
+            <ul>
+                <a href="./galerie.html"><li><i class='fas fa-hamburger'></i>&ensp;Home</li></a> 
+                <a href="./login.html"><li><i class="fa-solid fa-user"></i>&ensp;Skills</li></a>
+                <a href="./login.html"><li><i class="fa-solid fa-user"></i>&ensp;Projets</li></a>
+                <a href="tel:+33134341023"><li><i class="fa-solid fa-phone-volume"></i>&ensp;Appeler maintenant</li></a>
+                <a href="./contacts.html"><li><i class="fa-solid fa-envelope"></i>&ensp;Contacts</li></a>  
+            </ul>
+        </nav>
     </header>
     <div class="slider">
-        <img src="img/istockphoto.jpg" class="">
-        <div>
-            <h1> Développeur web & web mobile</h1> 
-        </div>
+        
+        <h1> Développeur web & web mobile</h1>
+        
         
     </div>
+    <!--------------------------- PROJETS (GALERIE)  ------------------>
+
+        <div class="galerie">
+            <h2>Mes projets</h2>
+            <div class="galerie1">
+                <figure>
+                    <img src="/img/swiftui-logo.png" alt="" height="400rem" width="400rem">
+                </figure>
+                <figure>
+                    <img src="/img/phplogo.png" alt="" height="400rem" width="400rem">
+                </figure>
+            </div>
+            <div class="galerie2" >
+                <figure>
+                <img src="/img/Bootstrap_logo.png" alt="" height="400rem" width="400rem">
+                </figure>
+                <figure>
+                    <img src="/img/mysql-logo.png" alt="" height="400rem" width="400rem">
+                </figure>
+            </div>
     
+        </div>
+
+        <!--------------------------- LANGUAGES ------------------>
+        <div class="galerie">
+            <h2>Mes languages</h2>
+            <div class="galerie1">
+                <figure>
+                    <img src="/img/swiftui-logo.png" alt="" height="400rem" width="400rem">
+                </figure>
+                <figure>
+                    <img src="/img/phplogo.png" alt="" height="400rem" width="400rem">
+                </figure>
+            </div>
+            <div class="galerie2" >
+                <figure>
+                <img src="/img/Bootstrap_logo.png" alt="" height="400rem" width="400rem">
+                </figure>
+                <figure>
+                    <img src="/img/mysql-logo.png" alt="" height="400rem" width="400rem">
+                </figure>
+            </div>
+    
+        </div>
+        <!--------------------------- CONTACT ------------------>
+
+    <div class="TitreContact">
+        <h2>Contacts</h2>
+    </div>
+    <div class="ReseauxContact">
+        <a href="https://www.instagram.com/barber_thy/"><i class="fa-brands fa-instagram-square"></i></a>
+        <a href="#"><i class="fa-brands fa-snapchat-square"></i></a>
+    </div>
+
+    <div>
+        <form method="POST">  
+            <input type="text" class="feedback-input" placeholder="Nom" name="name" required="" data-has-listeners="true" data-listener-added_a2f36e74="true">   
+            <input type="text" class="feedback-input" placeholder="Email" name="Email" required="" data-has-listeners="true" data-listener-added_a2f36e74="true">   
+            <textarea name="text" class="feedback-input" placeholder="Message" data-has-listeners="true" data-listener-added_a2f36e74="true"></textarea>
+            <button type="submit" class="btn">ENVOYER</button> 
+        <span id="monica-writing-entry-btn-root" style="position: absolute; left: 0px; top: 0px; pointer-events: none;"></span></form>
+    </div>
+
+    <!----------------------------------- FOOTER -------------------------->
 
     <footer>
-2025 ©tous droits réservés
+        <hr class="traitfooter">
+            <div class="bas">
+                <div class="gauche">
+                    <p>©GCorp's</p>
+                </div>
+                <div class="droite">
+                    <p>2025 ©tous droits réservés</p>
+                </div>
+            </div>
     </footer>
 </body>
 
