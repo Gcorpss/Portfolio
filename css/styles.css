@@ -5,11 +5,41 @@
     padding: 0;
 }
 
-#navbar, ul{
+#header {
+    width: 100%;
+    height: 4rem;
+    color: goldenrod;
     display: flex;
-    justify-content: center;
-   /* background: rgb(255 255 255 / 10%); */
+    justify-content: space-between;
+    box-shadow: rgba(148, 13, 13, 0.097) 0px 6px 48px, rgba(0, 0, 0, 0.098) 0px 4px 4px;
 }
+
+header p {
+    padding-left: 6rem;
+}
+header a {
+    text-decoration: none;
+    color: black;
+    font-weight: 10rem;
+}
+
+header a:hover {
+    color: rgba(175, 131, 20, 0.946);
+}
+
+header p:hover {
+    color: rgba(175, 131, 20, 0.946);
+}
+
+header ul {
+    padding-right: 6rem;
+    gap: 40px;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+
+/* ------------------------- Body ------------------------------------------------------- */
 
 h1{
     font-family: "Caprasimo", serif;
