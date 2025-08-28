@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Playwrite+AU+NSW:wght@100..400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#header {
+    width: 100%;
+    height: 4rem;
+    color: goldenrod;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    /*box-shadow: rgba(148, 13, 13, 0.097) 0px 6px 48px, rgba(0, 0, 0, 0.098) 0px 4px 4px; */
+    position: fixed;
+}
+
+header p {
+    padding-left: 6rem;
+}
+header a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: rgba(175, 131, 20, 0.946);
+}
+
+header p:hover {
+    color: rgba(175, 131, 20, 0.946);
+}
+
+header ul {
+    padding-right: 6rem;
+    gap: 40px;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+
+nav{
+    display: flex;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+}
+
+/* ------------------------- Body ------------------------------------------------------- */
+
+h1{
+    font-family: "Caprasimo", serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-family: "Caprasimo", serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+h3{
+    text-align: center;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+body{
+    font-family: "Playwrite AU NSW", cursive;
+    font-optical-sizing: auto;
+    font-weight: 50;
+    font-style: normal;
+}
+
+.slider{
+    background-image: url(/img/istockphoto.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+}
+
+.slider h1{
+    padding-top: 12rem;
+    color: white;
+}
+/* ------------------------- Projets------------------------------------------------------- */
+
+.projets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    grid-column: 3;
+    margin-top: 5rem;    
+    padding-bottom: 6rem;
+}
+
+.projet{
+    transition: transform .3s;
+}
+
+/* ------------------------- Languages------------------------------------------------------- */
+
+.galerie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    grid-column: 3;
+    margin-top: 5rem;
+    padding-bottom: 6rem;
+}
+
+/*--------------------- Contact -------------------------- */
+.TitreContact{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+.ReseauxContact{
+    text-align: center;
+    font-size: 55px;
+    color: rgb(20, 68, 20);
+}
+
+form {
+    /* max-width:580px; 
+    margin:50px auto; */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #ccc;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+.feedback-input {
+    color:white;
+    /*font-family: Helvetica, Arial, sans-serif;*/
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 20px;
+    background-color: rgba(203, 201, 201, 0.821);
+    border:2px solid #CC6666;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+    outline:0;
+}
+
+.feedback-input:focus { 
+    border:2px solid #CC4949; 
+}
+
+textarea {
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+[type="submit"] {
+   /* font-family: 'Montserrat', Arial, Helvetica, sans-serif; */
+    width: 100%;
+    background:#cd282f;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    color:white;
+    font-size:24px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:700;
+}
+[type="submit"]:hover { background:#cd282f; }
+
+.fa-brands, .fab {
+    color: red;
+}
+
+/* ------------------------- footer------------------------------------------------------- */
+
+.traitfooter {
+    width: 90%;
+}
+
+.bas {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 9rem;
+    padding-right: 9rem;
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(128, 124, 124);
+}
