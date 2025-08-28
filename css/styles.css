@@ -5,16 +5,6 @@
     padding: 0;
 }
 
-@media (min-width: 640px) {
-    #header:justify-between {
-        justify-content: space-between;
-    }
-}
-@media (min-width: 640px) {
-    nav {
-        flex-direction: row;
-    }
-}
 
 #header {
     width: 100%;
@@ -56,6 +46,19 @@ nav{
     display: flex;
 }
 
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+}
+
 /* ------------------------- Body ------------------------------------------------------- */
 
 h1{
@@ -74,6 +77,11 @@ h2{
     padding-top: 2rem;
 }
 
+h3{
+    text-align: center;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
 body{
     font-family: "Playwrite AU NSW", cursive;
     font-optical-sizing: auto;
@@ -94,23 +102,32 @@ body{
     padding-top: 12rem;
     color: white;
 }
-/* ------------------------- Galerie------------------------------------------------------- */
+/* ------------------------- Projets------------------------------------------------------- */
 
 .projets {
     display: flex;
-    grid-column: 3;
-    padding-bottom: 6rem;
+    flex-wrap: wrap;
     justify-content: space-around;
+    grid-column: 3;
     margin-top: 5rem;    
+    padding-bottom: 6rem;
 }
+
+.projet{
+    transition: transform .3s;
+}
+
+/* ------------------------- Languages------------------------------------------------------- */
 
 .galerie {
     display: flex;
-    grid-column: 3;
-    padding-bottom: 6rem;
+    flex-wrap: wrap;
     justify-content: space-around;
+    grid-column: 3;
     margin-top: 5rem;
+    padding-bottom: 6rem;
 }
+
 /*--------------------- Contact -------------------------- */
 .TitreContact{
     text-align: center;

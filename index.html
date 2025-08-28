@@ -3,109 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:url" content="https://github/Gcorpss/Portfolio">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <link rel="stylesheet" href="/css/styles.css">
 
     <title>Mon portfolio</title>
 </head>
 <body>
-    <header id="header">
-        <a href="./index.html"><p>GCorps</p></a>
+    <header>
         <nav>
+            <a href="./index.html"><p>GCorps</p></a>
             <ul>
-                <a href="./galerie.html"><li><i class='fas fa-home'></i>&ensp;Accueil</li></a> 
-                <a href="./login.html"><li><i class="fa-solid fa-user"></i>&ensp;Skills</li></a>
-                <a href="./login.html"><li><i class="fa-solid fa-user"></i>&ensp;Projets</li></a>
+                <a href="index.html"><li><i class='fas fa-home'></i>&ensp;Accueil</li></a> 
+                <a href="#skills"><li><i class="fa-solid fa-user"></i>&ensp;Skills</li></a>
+                <a href="#projets"><li><i class="fa-solid fa-user"></i>&ensp;Projets</li></a>
                 <a href="tel:+33134341023"><li><i class="fa-solid fa-phone-volume"></i>&ensp;Appeler maintenant</li></a>
-                <a href="./contacts.html"><li><i class="fa-solid fa-envelope"></i>&ensp;Contact</li></a>  
+                <a href="#contact"><li><i class="fa-solid fa-envelope"></i>&ensp;Contact</li></a>  
             </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </nav>
     </header>
-  <!--   <header id="header">
-        <nav id="navbar">
-            <ul>
-                <a href="./galerie.html"><li><i class='fas fa-hamburger'></i>&ensp;Home</li></a> 
-                <a href="tel:+33134341023"><li><i class="fa-solid fa-phone-volume"></i>&ensp;Appeler maintenant</li></a>
-                <a href="./contacts.html"><li><i class="fa-solid fa-envelope"></i>&ensp;Contacts</li></a>  
-            </ul>
-        </nav>
-    </header>-->
+
     <div class="slider">
         
         <h1> Développeur web & web mobile</h1>
-        
-        
+
     </div>
     <!--------------------------- PROJETS (GALERIE)  ------------------>
-            <h2>Mes projets</h2>
-        <section class="projets" id="projets">
+            <h2 id="#projets">Mes projets</h2>
+        <section class="projets">          
+            <div class="projet">
+                    <img src="/img/DevLetIcon.png" alt="" height="300rem" width="350rem">
+                    <h3 class="Language"> DevLetics</h3>
+            <br>
+                    <img src="/img/logo-barberT.png" alt="" height="300rem" width="350rem">
+                    <h3 class="Language"> Barber T</h3>
+            </div>
+
+            <div class="projet" >
+                    <img src="/img/Bootstrap_logo.png" alt="" height="300rem" width="350rem">
+                    <h3 class="Language"> So Good</h3>
+            <br>
+                <img src="/img/mysql-logo.png" alt="" height="300rem" width="350rem">
+                <h3 class="Language">  Story-ain-t-over</h3>
+            </div>
             
-            <div class="galerie1">
-                <figure>
-                    <img src="/img/swiftui-logo.png" alt="" height="300rem" width="350rem">
-                </figure>
-                <br>
-                <figure>
-                    <img src="/img/phplogo.png" alt="" height="300rem" width="350rem">
-                </figure>
+            <div class="projet">
+                <img src="/img/LogoGreen.jpg" alt="" height="300rem" width="350rem">
+                <h3 class="Language"> Le grenier de l'éléphant</h3>                
+            <br>
+                <img src="/img/mysql-logo.png" alt="" height="300rem" width="350rem">
+                <h3 class="Language"> Portfolio</h3>
             </div>
-            <div class="galerie2" >
-                <figure>
-                <img src="/img/Bootstrap_logo.png" alt="" height="300rem" width="350rem">
-                </figure>
-                <br>
-                <figure>
-                    <img src="/img/mysql-logo.png" alt="" height="300rem" width="350rem">
-                </figure>
-            </div>
-            <div class="galerie3" >
-                <figure>
-                <img src="/img/Bootstrap_logo.png" alt="" height="300rem" width="350rem">
-                </figure>
-                <br>
-                <figure>
-                    <img src="/img/mysql-logo.png" alt="" height="300rem" width="350rem">
-                </figure>
-            </div>
-    
+            
         </section>
 <hr>
         <!--------------------------- LANGUAGES ------------------>
 
-            <h2>Mes languages</h2>
-        <div class="galerie">
-            <div class="galerie1">
-                <figure>
+            <h2 id="#skills">Mes languages/Logiciels</h2>
+        <div class="galerie" ">
+            <div class="galery">
                     <img src="/img/swiftui-logo.png" alt="" height="300rem" width="350rem">
-                </figure>
-                <br>
-                <figure>
-                    <img src="/img/phplogo.png" alt="" height="300rem" width="350rem">
-                </figure>
+                    <h3 class="Language"> Swift/SwiftUi</h3>
             </div>
-            <div class="galerie2" >
-                <figure>
+
+            <div class="galery">
+                <img src="/img/swiftui-logo.png" alt="" height="300rem" width="350rem">
+                <h3 class="Language"> HTML/CSS</h3>
+            </div>     
+            
+            <div class="galery">
+                <img src="/img/swiftui-logo.png" alt="" height="300rem" width="350rem">
+                <h3 class="Language"> Javascript</h3>
+            </div>
+
+            <div class="galery">
+                <img src="/img/mysql-logo.png" alt="" height="300rem" width="350rem">
+                <h3 class="Language"> MySQL</h3>
+            </div>
+
+            <div class="galery">
                 <img src="/img/Bootstrap_logo.png" alt="" height="300rem" width="350rem">
-                </figure>
-                <br>
-                <figure>
-                    <img src="/img/mysql-logo.png" alt="" height="300rem" width="350rem">
-                </figure>
+                <h3 class="Language"> PHP</h3>
             </div>
-            <div class="galerie3" >
-                <figure>
-                <img src="/img/Bootstrap_logo.png" alt="" height="300rem" width="350rem">
-                </figure>
-                <br>
-                <figure>
-                    <img src="/img/mysql-logo.png" alt="" height="300rem" width="350rem">
-                </figure>
+
+            <div class="galery">
+                <img src="/img/figma-logo.png" alt="" height="300rem" width="350rem">
+                <h3 class="Language"> Figma</h3>
             </div>
+        </div>
     
         </div>
         <hr>
         <!--------------------------- CONTACT ------------------>
 
-    <div class="TitreContact">
+    <div class="TitreContact" id="#contact">
         <h2>Contacts</h2>
     </div>
     <div class="ReseauxContact">
